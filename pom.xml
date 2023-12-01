@@ -18,6 +18,14 @@
 	</properties>
 	<dependencies>
 		<dependency>
+    		<groupId>com.amazonaws</groupId>
+     		<artifactId>aws-java-sdk-bom</artifactId>
+    		<version>1.12.472</version>
+			<type>pom</type>
+      		<scope>import</scope>
+		</dependency>
+		
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
