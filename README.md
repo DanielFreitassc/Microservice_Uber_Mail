@@ -6,9 +6,10 @@ https://start.spring.io/#!type=maven-project&language=java&platformVersion=3.2.0
 # Utilizei o serviço da amazon o aws 
 ## Import do aws 
 ```
+
 <dependency>
     <groupId>com.amazonaws</groupId>
-    <artifactId>aws-java-sdk-bom</artifactId>
+    <artifactId>aws-java-sdk-ses</artifactId>
     <version>1.12.472</version>
 </dependency>
 ```
